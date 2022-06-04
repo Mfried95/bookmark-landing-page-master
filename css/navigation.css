@@ -15,14 +15,15 @@
         position: relative;
     }
 
-    .mobile-nav{
-        display: block;
+    .mobile-nav-open{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         position: relative;
     }
+    
+    
     
     /* ACTIVE NAV MENU */
 
@@ -77,4 +78,8 @@
     li.login-button a{
         padding: .5em 3.5em;
         border: solid 1px white;
+    }
+
+    .hamburger-close{
+        cursor: pointer;
     }
