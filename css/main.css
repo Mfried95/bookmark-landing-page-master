@@ -1,0 +1,74 @@
+
+/*//////////// GOOGLE FONTS IMPORT  ////////////*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+/*font-family: 'Rubik', sans-serif;*/
+
+/*//////////// STYLESHEETS  ////////////*/
+
+@import url(navbar.css);
+@import url(mobile\ nav.css);
+@import url(navigation.css);
+@import url(Buttons.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*//////////// LAYOUT  ////////////*/
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+header{
+    position: relative;
+    margin-bottom: 5em;
+}
+
+
+.container{
+    padding: 2em 1em;
+    background-color: bisque;
+    height: 100vh;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero img{
+    width: 100%;
+}
+
+/*//////////// TYPEOGRAPHY  ////////////*/
+
+li{
+    list-style: none;
+    margin: 0 1em;
+}
+
+
+
+
+@media (max-width: 675px){
+    .nav-menu{
+        display: none;
+    }
+
+}
+
+
+
+
+@media (min-width: 675px) {
+    .hamburger{
+        display: none;
+    }
+}
