@@ -6,8 +6,6 @@
 
 /*//////////// STYLESHEETS  ////////////*/
 
-@import url(navbar.css);
-@import url(mobile\ nav.css);
 @import url(navigation.css);
 @import url(Buttons.css);
 
@@ -25,7 +23,6 @@ body{
 }
 
 header{
-    position: relative;
     margin-bottom: 5em;
 }
 
@@ -71,4 +68,6 @@ li{
     .hamburger{
         display: none;
     }
+
+    
 }

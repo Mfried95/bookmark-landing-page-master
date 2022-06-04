@@ -9,11 +9,32 @@
     <title>Frontend Mentor | Bookmark landing page</title>
 </head>
 <body>
+    
+     <div class="mobile-nav active">
+        <nav class="mobile">
+            <img src="images/logo-bookmark.svg" alt="">
+            <div class="hamburger" id="hamburger-close">
+                <img src="images/icon-close.svg" alt="" class="close-btn">
+            </div>
+        </nav>
+
+        <div class="nav-menu active">
+            <div class="line-break"></div>
+            <li><a href="#">Features</a></li>
+            <div class="line-break"></div>
+            <li><a href="#">Pricing</a></li>
+            <div class="line-break"></div>
+            <li><a href="#">Contact</a></li>
+            <div class="line-break last"></div>
+            <li class="login-button active"><a href="#">Login</a></li>
+            </div>
+    </div>
+
     <div class="container">
         <header>
-            <nav>
+            <nav class="mobile-nav">
                 <img src="images/logo-bookmark.svg" alt="">
-                <div class="hamburger">
+                <div class="hamburger" id="hamburger">
                     <img src="images/icon-hamburger.svg" alt="">
                 </div>
                 <div class="nav-menu">
@@ -24,6 +45,7 @@
                 </div>
             </nav>
         </header>
+      
 
         <section class="hero">
             <div class="hero-img">
