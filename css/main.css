@@ -31,6 +31,7 @@ header{
     padding: 2em 1em;
     background-color: bisque;
     height: 100vh;
+    min-width: 300px;
 }
 
 .hero{
@@ -40,11 +41,39 @@ header{
     text-align: center;
 }
 
-.hero img{
+.background-tube{
+    background-color: aqua;
+    border-radius: 7rem 0 0 7rem;
+    position: absolute;
     width: 100%;
 }
 
+
+.hero img{
+    max-width: 350px;
+    min-width: 300px;
+}
+
+.hero-content{
+    line-height: 1.5rem;
+    padding: 1.5em;
+}
+
+
 /*//////////// TYPEOGRAPHY  ////////////*/
+
+
+.hero h2{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.3em;
+    margin-bottom: .5em;
+}
+
+.hero p{
+    margin-bottom: 2em;
+}
+
 
 li{
     list-style: none;
@@ -52,12 +81,13 @@ li{
 }
 
 
-
+/* Media Queries */
 
 @media (max-width: 675px){
     .nav-menu{
         display: none;
     }
+
 
 }
 
@@ -69,5 +99,31 @@ li{
         display: none;
     }
 
-    
+    .mobile-nav.active{
+        display: none;
+    }
+
+    .container{
+        padding: 3em 10em;
+    }
+
+    .hero{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .hero-img{
+        max-width: 50%;
+    }
+
+    .hero img{
+        min-width: 70%;
+    }
+
+    .hero-content{
+        width: 50%;
+        text-align: left;
+    }
 }
+    
