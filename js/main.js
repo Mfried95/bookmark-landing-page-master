@@ -47,6 +47,7 @@ tab1.addEventListener("click", function(e){
 </div>`
 })
 
+// Tab 2
 
 tab2.addEventListener("click", function(e){
     e.preventDefault()
@@ -60,6 +61,8 @@ No need to trawl through all of your bookmarks.</p>
 <button class="more-info">More Info</button>
 </div>`
 })
+
+// Tab 3
 
 tab3.addEventListener("click",function(e){
     e.preventDefault()
