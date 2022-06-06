@@ -36,6 +36,20 @@
     padding: 1em;
 }
 
+.features a{
+    text-decoration: none;
+    color: black;
+}
+
+.features a:hover{
+    border-bottom: solid red 2px;
+    opacity: 50%;
+}
+
+.features a:focus{
+    border-bottom: solid red 2px;
+}
+
 .more-info{
     padding: .5em 1em;
     color: white;
