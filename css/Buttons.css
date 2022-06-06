@@ -20,6 +20,9 @@
 
 /* Features  */
 
+.features{
+    overflow: hidden;
+}
 
 .features-tabs{
     width: 100%;

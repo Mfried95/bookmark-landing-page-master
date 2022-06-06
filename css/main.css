@@ -31,6 +31,7 @@ header{
     padding: 2em 1em;
     background-color: bisque;
     min-width: 300px;
+    overflow: auto;
 }
 
 
@@ -65,6 +66,7 @@ header{
     align-items: center;
     text-align: center;
     width: 100%;
+    overflow: hidden;
 }
 
 
@@ -177,7 +179,6 @@ li{
         flex-direction: row;
         justify-content: center;
         border-bottom: solid 1px grey;
-        width: 50%;
     }
 
     .feature-img{
@@ -190,6 +191,7 @@ li{
         flex-direction: row;
         justify-content: center;
         text-align: left;
+        margin-top: 1em;
     }
 
     .feature-content{
@@ -200,6 +202,9 @@ li{
         margin-bottom: 1em;
     }
 
+    .features-tabs li{
+        margin: 1.5em;
+    }
 
 }
     

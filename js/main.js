@@ -36,7 +36,7 @@ const tab3 = document.getElementById("tab3")
 // Tab 1
 
 tab1.addEventListener("click", function(e){
-    e.preventDefault()
+    e.preventDefault(e)
     featureSection.innerHTML = `<div class="feature-img">
     <img src="images/illustration-features-tab-1.svg" alt="">
 </div>
