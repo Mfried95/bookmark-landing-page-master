@@ -21,8 +21,9 @@
 /* Features  */
 
 
-.features-selections{
+.features-tabs{
     width: 100%;
+    margin-bottom: 4em;
 }
 
 .fet-line{
@@ -33,4 +34,16 @@
 
 .features li{
     padding: 1em;
+}
+
+.more-info{
+    padding: .5em 1em;
+    color: white;
+    background-color: hsl(231, 69%, 60%);
+    border: none;
+}
+
+.more-info:hover{
+    background-color: grey;
+    border: solid 2px white;
 }

@@ -67,14 +67,13 @@ header{
     width: 100%;
 }
 
-.features-content{
-    line-height: 1.5rem;
-    padding: 1.5em;
-    width: 100%;
+
+/* Features list are found in Buttons.css file */
+
+.features img{
+    max-width: 80%;
+    margin-bottom: 2em;
 }
-
-/* Features selections are found in Buttons.css file */
-
 
 /*//////////// TYPEOGRAPHY  ////////////*/
 
@@ -133,11 +132,14 @@ li{
         min-width: 100%;
     }
 
+    /* Hero sections layout */
+
     .hero{
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
         margin: auto;
+        margin-bottom: 7em;
     }
 
     .hero-img{
@@ -145,7 +147,7 @@ li{
     }
 
 
-    .hero-content{
+    .hero-header{
         min-width: 350px;
         max-width: 100%;
         text-align: left;
@@ -158,6 +160,44 @@ li{
 
     .hero p{
         font-size: 1.2rem;
+    }
+
+    /* Feature sections layout */
+
+    .features-header{
+       max-width: 40%;
+    }
+
+    .fet-line{
+        display: none;
+    }
+
+    .features-tabs{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-bottom: solid 1px grey;
+        width: 45%;
+    }
+
+    .feature-img{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .feature-sections{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .feature-content{
+        max-width: 40%;
+    }
+
+    .feature-content h2{
+        margin-bottom: 1em;
     }
 
 }
