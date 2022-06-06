@@ -177,7 +177,7 @@ li{
         flex-direction: row;
         justify-content: center;
         border-bottom: solid 1px grey;
-        width: 45%;
+        width: 50%;
     }
 
     .feature-img{
