@@ -1,10 +1,11 @@
 
 
 .hero button{
-    padding: 1em;
+    padding: 1em 1.5em;
     border-radius: .5rem;
     border: none;
     box-shadow: 0px 4px 9px 6px rgba(0,0,0,0.16);
+    font-size: .9rem;
 }
 
 .chrome-btn{
@@ -15,4 +16,21 @@
 
 .hero button:hover{
     background-color: grey;
+}
+
+/* Features  */
+
+
+.features-selections{
+    width: 100%;
+}
+
+.fet-line{
+    border: solid 1px black;
+    opacity: 10%;
+    width: 90%;
+}
+
+.features li{
+    padding: 1em;
 }

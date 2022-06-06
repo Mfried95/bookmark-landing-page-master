@@ -1,4 +1,5 @@
 
+///////////////       NAVIGATION     ///////////////// 
 
 
 // OPEN MENU 
@@ -11,9 +12,6 @@ hamburgerOpen.addEventListener("click", function(){
 })
 
 
-
-
-
 // CLOSE MENU
 const hamburgerClose = document.getElementById("hamburger-close")
 const dropClose = document.querySelector(".mobile-nav-open")
@@ -23,3 +21,8 @@ hamburgerClose.addEventListener("click", function(){
     dropClose.style.display = "block"
     dropClose.style.display = "flex"
 })
+
+
+
+///////////////       FEATURES     ///////////////// 
+
