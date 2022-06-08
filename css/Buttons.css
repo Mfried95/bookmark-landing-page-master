@@ -64,3 +64,12 @@
     background-color: grey;
     border: solid 2px white;
 }
+
+.download-btn{
+    background-color: hsl(231, 69%, 60%);
+    border: none;
+    color: white;
+    padding: 1.25em;
+    width: 80%;
+    border-radius: .5em;
+}

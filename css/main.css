@@ -82,7 +82,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 11em;
+    margin-top: 8em;
     width: 100%;
 }
 
@@ -103,9 +103,9 @@ header{
     align-items: center;
     background-color: aqua;
     width: 80%;
-    max-width: 400px;
+    max-width: 350px;
     margin: 1em 0em;
-    padding: 3em;
+    padding: 3em 0em;
 }
 
 /* Download list are found in Buttons.css file */
@@ -124,6 +124,11 @@ header{
     margin-bottom: 2em;
 }
 
+h2{
+    font-weight: 500;
+    margin-bottom: .7em;
+}
+
 
 li{
     list-style: none;
@@ -133,7 +138,11 @@ li{
 
 .card h3{
     margin-top: 2em;
+    margin-bottom: .3em;
 }
+
+
+
 
 
 /* Media Queries */
@@ -238,6 +247,31 @@ li{
 
     .features-tabs li{
         margin: 1.5em;
+    }
+
+    .download-header{
+        width: 30%;
+        min-width: 400;
+    }
+
+    .card-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1em;
+        height: 50vh;
+    }
+
+    .card{
+        max-width: 300px;
+    }
+
+    .firefox{
+        margin-top: 5em;
+    }
+
+    .opera{
+        margin-top: 10em;
     }
 
 }
