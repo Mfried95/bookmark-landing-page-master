@@ -208,7 +208,17 @@ li{
         background-color: hsl(0, 94%, 66%);
         color: white;
         padding: .5em 1.5em;
+        width: 1em;
+        height: 1em;
+        
         border-radius: .3rem;
+    }
+
+
+    #login-button:hover{
+        background-color: white;
+        color: red;
+        border: solid 1px red;
     }
 
     .container{
