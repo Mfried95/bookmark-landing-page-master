@@ -191,6 +191,26 @@ li{
         gap: 5em;
     }
 
+    .nav-menu a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: black;
+    }
+
+    .nav-menu a:hover{
+        border-bottom: solid red 1px;
+        color: black;
+    }
+
+    #login-button{
+        background-color: hsl(0, 94%, 66%);
+        color: white;
+        padding: .5em 1.5em;
+        border-radius: .3rem;
+    }
+
     .container{
         padding: 2em 7em;
         min-width: 100%;
@@ -284,7 +304,8 @@ li{
 
     .card{
         max-width: 300px;
-        height: 40vh;
+        max-height: 80%;
+        min-height: 350px;
     }
 
     .firefox{
