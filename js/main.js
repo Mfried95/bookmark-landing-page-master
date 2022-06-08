@@ -80,5 +80,13 @@ link that you can send at the click of a button.</p>
 
 ///////////////     FREQUENTLY ASKED QUESTIONS     ///////////////// 
 
+const faqItem = document.querySelectorAll(".item-faq")
+
+
+faqItem.forEach(faq => {
+    faq.addEventListener("click", () => {
+       itemContent.parentNode.classlist.toggle(".active")
+    })
+})
 
 
