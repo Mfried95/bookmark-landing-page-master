@@ -233,10 +233,12 @@ li{
         flex-direction: row-reverse;
         justify-content: space-between;
         margin: auto;
+        max-height: 350px;
     }
 
     .hero-img{
         width: 100%;
+        min-width: 400px;
     }
 
 
@@ -253,6 +255,10 @@ li{
 
     .hero p{
         font-size: 1.2rem;
+    }
+
+    .hero-content{
+        min-width: 400px;
     }
 
     /* Feature sections layout */
