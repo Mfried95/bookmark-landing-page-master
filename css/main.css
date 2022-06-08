@@ -114,6 +114,20 @@ header{
     border-radius: 1rem;
 }
 
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6em;
+    width: 100%;
+}
+
+.faq-header{
+    text-align: center;
+}
+
+
 /* Download list are found in Buttons.css file */
 
 /*//////////// TYPEOGRAPHY  ////////////*/
