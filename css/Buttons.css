@@ -73,3 +73,8 @@
     width: 80%;
     border-radius: .5em;
 }
+
+.download-btn:hover{
+    border: solid white 3px;
+    color: white;
+}

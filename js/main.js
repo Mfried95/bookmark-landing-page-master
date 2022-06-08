@@ -77,3 +77,8 @@ link that you can send at the click of a button.</p>
 </div>`
 })
 
+
+///////////////     FREQUENTLY ASKED QUESTIONS     ///////////////// 
+
+
+
