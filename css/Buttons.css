@@ -98,3 +98,7 @@ input{
     color: red;
     border: solid red 2px;
 }
+
+.footer-nav a:hover{
+    color: hsl(0, 94%, 66%);
+}
