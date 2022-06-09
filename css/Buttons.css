@@ -100,5 +100,5 @@ input{
 }
 
 .footer-nav a:hover{
-    color: hsl(0, 94%, 66%);
+    border-bottom: solid 1px red;
 }
