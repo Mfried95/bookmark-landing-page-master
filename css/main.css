@@ -168,7 +168,7 @@ header{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 5em 2em;
+    padding: 5em 1em;
     height: 20em;
 }
 
@@ -273,6 +273,10 @@ li{
 
     .hero-content{
         text-align: center;
+    }
+
+    .email{
+        padding-top: 4em;
     }
 
 }
