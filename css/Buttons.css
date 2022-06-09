@@ -53,6 +53,8 @@
     border-bottom: solid red 2px;
 }
 
+
+
 .more-info{
     padding: .5em 1em;
     color: white;
@@ -77,4 +79,22 @@
 .download-btn:hover{
     border: solid white 3px;
     color: white;
+}
+
+input{
+    padding: 1em 5em;
+    margin-bottom: 1em;
+    border-radius: .5rem;
+    border: none;
+}
+
+#submit{
+    color: white;
+    background-color: hsl(0, 94%, 66%);
+}
+
+#submit:hover{
+    background-color: white;
+    color: red;
+    border: solid red 2px;
 }
