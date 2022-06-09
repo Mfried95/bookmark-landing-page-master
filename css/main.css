@@ -115,12 +115,14 @@ header{
 }
 
 
+
 .faq{
     display: flex;
     flex-direction: column;
     margin: auto;
     margin-top: 6em;
     max-width: 70%;
+    min-width: 300px;
 }
 
 .faq-header{
@@ -128,13 +130,11 @@ header{
 }
 
 .item-faq{
-    background-color: aqua;
     flex-direction: row;
     justify-content: space-around;
     cursor: pointer;
-    border-top: solid 1px black;
-    border-bottom: solid 1px black;
     padding: 1em;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.212);
 }
 
 .faq img{
@@ -152,9 +152,8 @@ header{
     margin: 1.5em;
 }
 
-.fet-line.faq{
-    border: solid 1px black;
-    opacity: 100%;
+.item-faq:first-child{
+    border-top: solid 1px rgba(0, 0, 0, 0.212);
 }
 
 
@@ -367,6 +366,10 @@ li{
 
     .opera{
         margin-top: 10em;
+    }
+
+    .faq{
+        max-width: 35%;
     }
 
 }

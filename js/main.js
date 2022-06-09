@@ -85,7 +85,7 @@ const faqItem = document.querySelectorAll(".item-faq")
 
 faqItem.forEach(faq => {
     faq.addEventListener("click", () => {
-       itemContent.parentNode.classlist.toggle(".active")
+       faq.children[1].classList.toggle("active");
     })
 })
 
