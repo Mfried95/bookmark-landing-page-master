@@ -350,6 +350,7 @@ li{
     }
 
 
+
     .hero-header{
         min-width: 350px;
         max-width: 100%;
@@ -366,7 +367,7 @@ li{
     }
 
     .hero-content{
-        min-width: 400px;
+        min-width: 350px;
     }
 
     /* Feature sections layout */
@@ -465,11 +466,13 @@ li{
 
     footer img{
         margin-bottom: 1.5em;
+        margin-right: 10em;
     }
 
 
     .footer-nav{
         display: flex;
+        text-align: center;
     }
 
     #email{

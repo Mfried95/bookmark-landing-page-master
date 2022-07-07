@@ -81,6 +81,7 @@
     color: white;
     background-color: hsl(231, 69%, 60%);
     border: none;
+    cursor: pointer;
 }
 
 .more-info:hover{
@@ -95,6 +96,7 @@
     padding: 1.25em;
     width: 80%;
     border-radius: .5em;
+    cursor: pointer;
 }
 
 .download-btn:hover{
@@ -112,6 +114,8 @@ input{
 #submit{
     color: white;
     background-color: hsl(0, 94%, 66%);
+    border: solid 2px red;
+    cursor: pointer;
 }
 
 #submit:hover{
