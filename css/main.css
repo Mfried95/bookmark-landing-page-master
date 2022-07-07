@@ -340,6 +340,10 @@ li{
         max-height: 350px;
     }
 
+    .hero-buttons{
+        padding-top: 1em;
+    }
+
     .hero-img{
         width: 100%;
         min-width: 400px;
@@ -459,9 +463,13 @@ li{
         padding: 0;
     }
 
+    footer img{
+        margin-bottom: 1.5em;
+    }
+
+
     .footer-nav{
         display: flex;
-    
     }
 
     #email{

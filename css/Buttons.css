@@ -1,21 +1,42 @@
 
 
-.hero button{
-    padding: 1em 1.5em;
-    border-radius: .5rem;
-    border: none;
-    box-shadow: 0px 4px 9px 6px rgba(0,0,0,0.16);
-    font-size: .8rem;
+.firefox-btn{
+    background-color: rgb(219, 216, 216);
+    color: black;
+    border: white 1px;
+    padding: 1em;
+    
+    border-radius: .3rem;
+    cursor: pointer;
 }
+
+.firefox-btn:hover{
+    background-color: white;
+    border: solid black 1px;
+    border-radius: .3rem;
+    padding: 1em;
+}
+
+
+
 
 .chrome-btn{
     background-color: hsl(231, 69%, 60%);
     color: white;
+    padding: 1em;
     margin-right: .5em;
+    border: solid 1px;
+    border-radius: .3rem;
+    cursor: pointer;
 }
 
-.hero button:hover{
-    background-color: grey;
+.chrome-btn:hover{
+    color: blue;
+    background-color: white;
+    border: blue solid 1px;
+    padding: 1em;
+    border-radius: .3rem;
+    margin-right: .5em;
 }
 
 /* Features  */
