@@ -312,19 +312,17 @@ li{
 
     #login-button{
         background-color: hsl(0, 94%, 66%);
-        color: white;
-        padding: .5em 1.5em;
-        width: 1em;
-        height: 1em;
-        
-        border-radius: .3rem;
+        color: white;  
+        padding: .5em 1em;  
+        border: solid red 1px;                        
     }
 
 
     #login-button:hover{
         background-color: white;
+        padding: .5em 1em;   
         color: red;
-        border: solid 1px red;
+        border: solid red 1px;
     }
 
     .container{
